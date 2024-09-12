@@ -6,6 +6,10 @@
     "node": "18.x"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.0",
+    "@mui/material": "^6.1.0",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "connect-pg-simple": "^9.0.1",
@@ -25,7 +29,7 @@
   },
   "scripts": {
     "start": "node server/server.js",
-   "client": "vite",
+    "client": "vite",
     "server": "nodemon --watch server server/server.js",
     "build": "vite build",
     "test": "vitest"
